@@ -20,6 +20,8 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+/* ---------Section header--------- */
 .header {
   width: 100%;
   background-color: aquamarine;
@@ -60,4 +62,115 @@ body {
   color: #fff;
   text-decoration: none;
   line-height: 2;
+}
+.button-toggle {
+  width: 54px;
+  background-color: aquamarine;
+}
+
+/* ----------Section intro--------- */
+.intro-inner {
+  margin: 30px 0;
+  text-align: center;
+}
+.intro-img {
+  width: 100%;
+  border-radius: 4px;
+}
+.intro-text {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.intro-text h1 {
+  margin-bottom: 2px;
+  font-size: 25px;
+}
+
+.intro-text p {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* --------Section contacts----- */
+
+.contact-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.contact-block h3 {
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.contact-menu {
+  margin-left: 20px;
+}
+.contact-menu-items {
+  display: flex;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  justify-content: space-around;
+}
+
+/* ----------Section Skills------- */
+.skills-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.skills-block h3 {
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.skills-menu {
+  display: flex;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.skills-menu-item {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: aqua;
+  cursor: pointer;
+
+  list-style: none;
+}
+
+/* ------------Section Code example------- */
+.code-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.code-block h3 {
+  padding: 10px 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.code-block p {
+  text-align: center;
+}
+.code-ex {
+  color: aqua;
+  overflow: auto;
+}
+
+/* -----------Section Language------- */
+.language-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
 }
