@@ -1,0 +1,276 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #fff;
+  background-color: black;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ---------Section header--------- */
+.header {
+  width: 100%;
+  background-color: #f0a500;
+}
+.header-body {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.header-logo {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.header-logo:hover {
+  color: aqua;
+}
+.header-navbar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 54px;
+}
+.header-menu {
+  width: 100%;
+  top: 54px;
+  right: 0;
+  display: none;
+  padding: 15px 0;
+  text-transform: uppercase;
+  background-color: #f0a500;
+  justify-content: space-between;
+}
+.menu-item {
+  font-size: 16px;
+  list-style: none;
+}
+
+.menu-link {
+  color: #fff;
+  text-decoration: none;
+  line-height: 2;
+}
+.menu-link:hover {
+  color: aqua;
+}
+.button-toggle {
+  width: 54px;
+  background-color: #f0a500;
+}
+
+/* ----------Section intro--------- */
+.intro-inner {
+  margin: 30px 0;
+  text-align: center;
+}
+.intro-img {
+  width: 100%;
+  border-radius: 4px;
+}
+.intro-text {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: 30px;
+  padding: 20px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.intro-text h1 {
+  margin-bottom: 2px;
+  font-size: 25px;
+}
+
+.intro-text p {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* --------Section contacts----- */
+
+.contact-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.contact-block h3 {
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.contact-menu {
+  margin-left: 20px;
+}
+.contact-menu-items {
+  display: flex;
+  padding-bottom: 10px;
+  line-height: 1.5;
+  justify-content: space-around;
+}
+.contact-menu-items a {
+  color: #5d8bf4;
+}
+.contact-menu-items a:hover {
+  color: #fff;
+}
+
+/* ----------Section Skills------- */
+.skills-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.skills-block h3 {
+  padding: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.skills-menu {
+  display: flex;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.skills-menu-item {
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: aqua;
+  cursor: pointer;
+
+  list-style: none;
+}
+
+/* ------------Section Code example------- */
+.code-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.code-block h3 {
+  padding: 10px 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.code-block p {
+  text-align: center;
+}
+.code-ex {
+  color: aqua;
+  overflow: auto;
+}
+
+/* -----------Section Language------- */
+.languages-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.languages-block h3 {
+  padding: 10px 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.languages-block ul {
+  margin: 0 20px;
+}
+.languages-block li {
+  line-height: 1.5;
+}
+
+/* ---------Section Education--------- */
+.education-block {
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.education-block h3 {
+  padding: 10px 0;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.education-block ul {
+  margin: 0 20px;
+}
+.education-block li {
+  line-height: 1.5;
+}
+
+/* ----------Section footer-------- */
+.footer-cont {
+  background-color: #f0a500;
+  margin: 30px 0;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.footer-cont p {
+  text-align: center;
+}
+.footer-cont p {
+  letter-spacing: 1px;
+}
+.footer-cont a {
+  color: #5d8bf4;
+}
+.footer-cont a:hover {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .intro-inner {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .intro-img {
+    width: 47%;
+  }
+  .intro-text {
+    width: 50%;
+    margin: 0;
+  }
+}
+@media (min-width: 1000px) {
+  .header-body {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-logo {
+    width: 30%;
+  }
+  .header-navbar {
+    width: 70%;
+  }
+  .header-menu {
+    display: flex;
+    /* gap: 30px; */
+  }
+  .button-toggle {
+    display: none;
+  }
+}
